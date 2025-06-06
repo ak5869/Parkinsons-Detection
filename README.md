@@ -1,6 +1,7 @@
 # Early Stage Parkinson’s Detection Using Voice Analysis
 
-This project uses voice features and machine learning (Random Forest and SVM) to help detect early signs of Parkinson’s Disease. Users can input data manually or upload a CSV file to get predictions and visual explanations.
+This project uses voice features and machine learning (Random Forest and SVM) to help detect early signs of Parkinson’s Disease. 
+Users can input data manually or upload a CSV file to get predictions and visual explanations.
 
 
 ###  Features
@@ -14,20 +15,39 @@ This project uses voice features and machine learning (Random Forest and SVM) to
 
 
 ### Demo
+  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bc49fd6e-f743-4e2b-ab5d-30f31f288582" width="70%">
+</p>
 
-![App Screenshot](demo/screenshot.png)
 
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c3020847-c9a2-41c3-a807-4483da5b764e" width="70%">
+</p>
+
+
+
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/1b9af9b9-e76d-450a-9b1e-1f5dc5999aa5" width = "70%">
+</p>
+
+
+
+<p align="center">
+   <img src = "https://github.com/user-attachments/assets/af2453ff-56ea-4f80-b0d8-340ea43564d4" width = "70%">
+</p>
 
 ###  Project Structure
 
-`parkinsons-detection/  `
+`parkinsons-detection/`
+
 ├── `app.py` — Streamlit UI  
 ├── `model.py` — Random Forest training  
 ├── `train_svm.py` — SVM model training  
 ├── `parkinsons_model.pkl` — Trained RF model  
 ├── `svm_model.pkl` — Trained SVM model  
-├── `scaler.pkl` — Feature scaler (StandardScaler)  
+├── `scaler.pkl` — Feature scaler  
 ├── `parkinsons.data` — Dataset  
 ├── `styles.css` — Custom styles for Streamlit  
 ├── `requirements.txt` — Project dependencies  
